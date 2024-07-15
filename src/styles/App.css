@@ -1,0 +1,32 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  body{
+    background-color: #fa8072b7;
+  }
+  .album-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:#fa8072b7;
+  }
+  
+  .album {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.664);
+  }
+  
+  .album {
+    margin: 10;
+  }
+  
+  .album button {
+    margin-left: 10px;
+  }
